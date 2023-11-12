@@ -1,9 +1,0 @@
-@font-face {
-  font-family: OpenSans;
-  src: url(./Fonts/OpenSans_Light.ttf);
-}
-
-.App {
-  font-family: OpenSans, sans-serif;
-  padding: 10px;
-}
