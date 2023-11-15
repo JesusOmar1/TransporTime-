@@ -1,0 +1,27 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(./Fonts/OpenSans_Light.ttf);
+}
+
+::root {
+  /* COLORS PALETTE */
+  --Primary: #000139;
+  --Secondary: #EFF403;
+  --Text: #FFFFFF;
+  --Floating_Text: #999999;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--Primary,#000139);
+  color: var(--Text, #FFFFFF);
+  max-width: 100%;
+  height: 100vh;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+

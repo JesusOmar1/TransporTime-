@@ -1,0 +1,24 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(./Fonts/OpenSans_Light.ttf);
+}
+
+::root {
+  /* COLORS PALETTE */
+  --Primary: #000139;
+  --Secondary: #EFF403;
+  --Text: #FFFFFF;
+  --Floating_Text: #999999;
+}
+
+body {
+  margin: 0;
+  font-family: OpenSans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--Primary,#000139);
+}
+
+code {
+  font-family: OpenSans, sans-serif;
+}
